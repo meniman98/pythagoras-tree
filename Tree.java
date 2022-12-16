@@ -8,12 +8,13 @@ public class Tree extends JComponent {
 
     @Override
     protected void paintComponent(Graphics g) {
-        drawTree((Graphics2D) g, 275, 500, 375, 500, 0);
+        drawTree((Graphics2D) g, 300, 450, 400, 450, 0);
     }
 
     private void drawTree(Graphics2D g, float x1, float y1, float x2, float y2,
                           int depth) {
 
+//        If
         if (depth == 10)
             return;
 
